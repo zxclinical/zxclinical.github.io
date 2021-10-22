@@ -68,7 +68,7 @@ nav ul li a{
 .name{
 	font-size: 2em;
 }
-.fa-github-square, .fa-instagram-square, .fa-steam-square{
+.fa-github-square, .fa-instagram-square, .fa-steam-square, .fa-envelope-square{
 	color: #000;
 	font-size: 3em;
 }
@@ -185,7 +185,7 @@ footer{
 	color: #fff;
 	padding: 60px 25px 5px 20px;
 }
-.social-links-bottom .fa-github-square, .social-links-bottom .fa-instagram-square, .social-links-bottom .fa-steam-square{
+.social-links-bottom .fa-github-square, .social-links-bottom .fa-instagram-square, .social-links-bottom .fa-steam-square, .social-links-bottom .fa-envelope-square{
 	color: #fff;
 	margin: auto;
 	text-align: center;
