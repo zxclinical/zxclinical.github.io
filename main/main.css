@@ -172,6 +172,7 @@ nav ul li a{
 	border-right: 0;
 	border-bottom: black 2px solid;
 	border-left: black 2px solid;
+	background-color: #f0f0f0;
 }
 .btn{
 	background: none;
