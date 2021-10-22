@@ -1,0 +1,192 @@
+body{
+	font-family: 'Raleway';
+	background-image: url("../imgs/bg-image.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 920px;
+}
+#portfolio{
+	background-image: url("../imgs/mount.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.navbar {
+	background: none;
+	color: #fff;
+	font-size: 1.4em;
+	font-weight: 800;
+	float: right;
+}
+nav ul li{
+	height: 100%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: .75em;
+	transition: 0.75s;
+}
+
+nav ul li a:hover{
+	color: #000 !important;
+	background-color: #fff;
+	border-radius: 100px;
+}
+nav ul li.active{
+	color: #000;
+	border-radius: 100px;
+}
+nav ul li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+	border-radius: 100px;
+}
+.float-right{
+	float: right;
+}
+.info{
+	height: 920px;
+	width: 600px;
+	color: black;
+	padding: 300px 100px 0px 150px;
+}
+.info h2{
+	font-size: 1.7em;
+	font-weight: 1000;
+}
+.info p{
+	font-weight: 1000;
+	font-weight: 1000;
+}
+.disabled{
+	font-size: .7em;
+	color: grey;
+}
+.name{
+	font-size: 2em;
+}
+.fa-github-square, .fa-instagram-square, .fa-steam-square{
+	color: #000;
+	font-size: 3em;
+}
+.little-box{
+	width: 70px;
+	height: 70px;
+	background-color: #dfdfdf;
+	text-align: center;
+	vertical-align: center;
+	margin-right: 30px;
+	border-radius: 20px;
+}
+.berries{
+	background-color: #1D1D1D;
+	height: 230px;
+	color: #fff;
+	padding: 25px 25px;
+}
+.berries a{
+	text-decoration: none;
+	color: #fff;
+	border-left: 2px #fff solid;
+	border-right: 2px #fff solid;
+	font-size: 1.3em;
+	transition: 0.75s;
+	padding: 0px 15px;
+}
+.berries a:hover{
+	color: #fefefe;
+}
+
+#about h2, #skills h2, #portfolio h2, #contact h2{
+	width: 30%;
+	margin: 80px auto;
+	padding: 15px;
+	font-weight: 1000;
+	border: 5px #000 solid;
+}
+#about p, #contact p{
+	width: 50%;
+	margin: 80px auto;
+}
+#about a{
+	text-decoration: none;
+	color: #000;
+	border-left: 2px #000 solid;
+	border-right: 2px #000 solid;
+	font-size: 1.3em;
+	transition: 0.1s;
+	padding: 0px 15px;
+}
+#about a:hover{
+	color: #000;
+	border-left: 0px #000 solid;
+	border-right: 0px #000 solid;
+	border-bottom:  2px #000 solid;
+	border-top:  2px #000 solid;
+}
+.separator{
+	margin: 70px auto;
+	text-align: center;
+}
+.box{
+	width: 30%;
+	margin: 70px auto;
+}
+.using h3, .learning h3, .other-skills h3{
+	text-align: left;
+	padding-left: 200px;
+}
+
+.other-skills img{
+	height: 100px;
+	width: 100px;
+}
+#portfolio{
+	padding: 15px;
+}
+.portfolio{
+	background-color: #1d1d1d;
+	color: white;
+	padding: 20px;
+}
+.portfolio .col-md-4{
+	width: 20%;
+	margin: auto;
+	border-bottom: 1px #fff solid;
+}
+.portfolio a{
+	text-decoration: none;
+	color: #fff;
+}
+.third img{
+	width: 100%;
+}
+.form-control{
+	width: 50%;
+	margin: 25px auto;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: black 2px solid;
+	border-left: black 2px solid;
+}
+.btn{
+	background: none;
+	border-left: black 2px solid;
+	border-right: black 2px solid;
+	margin: auto;
+	text-align: center;
+}
+footer{
+	background-color: #1D1D1D;
+	height: 230px;
+	color: #fff;
+	padding: 60px 25px 5px 20px;
+}
+.social-links-bottom .fa-github-square, .social-links-bottom .fa-instagram-square, .social-links-bottom .fa-steam-square{
+	color: #fff;
+	margin: auto;
+	text-align: center;
+}
